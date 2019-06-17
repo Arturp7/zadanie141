@@ -4,10 +4,10 @@ import java.util.Scanner;
 
 public class ArrayUtils {
 
-    ArrayList creation() {
+    ArrayList<Integer> creation() {
         Scanner scan = new Scanner(System.in);
         ArrayList<Integer> numbers = new ArrayList<>();
-        Integer number = 0;
+        Integer number ;
         do {
             System.out.println("Podaj kilka liczb całkowitych większych od zera, dodanie liczby mniejszej od 0 kończy podawanie liczb  ");
             number = scan.nextInt();
