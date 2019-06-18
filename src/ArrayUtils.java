@@ -22,7 +22,7 @@ public class ArrayUtils {
         return numbers ;
     }
 
-    void reversedArray(ArrayList numb) {
+    void reversedArray(ArrayList<Integer> numb) {
         int j = numb.size();
         for (int i = 0; i < numb.size(); i++) {
             System.out.print(numb.get(j - 1));
